@@ -9,10 +9,10 @@ The Network Host Scanner is a simple Python script that utilizes the Scapy libra
 ## Installation
 
 1. Clone the repository:
-
-   ```shell
-   git clone https://github.com/Danny-LLi/Network_Hosts_Checker_NHC.git
+shell
+git clone https://github.com/Danny-LLi/Network_Hosts_Checker_NHC.git
 2. Install the required dependencies:
+shell
 pip install scapy
 ## Usage
 nhc network_interface ip prefix
