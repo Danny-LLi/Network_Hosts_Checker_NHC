@@ -9,16 +9,19 @@ The Network Host Scanner is a simple Python script that utilizes the Scapy libra
 ## Installation
 
 1. Clone the repository:
+
    ```shell
-git clone https://github.com/Danny-LLi/Network_Hosts_Checker_NHC.git
+   git clone https://github.com/Danny-LLi/Network_Hosts_Checker_NHC.git
 2. Install the required dependencies:
    ```shell
-pip install scapy
+   pip install scapy
 ## Usage
-nhc network_interface ip prefix
+   ```shell
+   nhc network_interface ip prefix
 network_interface: The network interface to use for scanning (e.g., wlan0).
 ip: The IP address to scan (e.g., 192.168.1.0).
 prefix: The CIDR prefix length (e.g., 24).
 
 Example:
-nhc wlan0 192.168.1.0 24
+   ```shell
+   nhc wlan0 192.168.1.0 24
