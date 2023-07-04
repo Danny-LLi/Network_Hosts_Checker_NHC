@@ -16,8 +16,8 @@ The Network Host Scanner is a simple Python script that utilizes the Scapy libra
    ```shell
    pip install scapy
 ## Usage
-      ```shell
-      nhc network_interface ip prefix
+   ```shell
+   nhc network_interface ip prefix
 network_interface: The network interface to use for scanning (e.g., wlan0).
 ip: The IP address to scan (e.g., 192.168.1.0).
 prefix: The CIDR prefix length (e.g., 24).
